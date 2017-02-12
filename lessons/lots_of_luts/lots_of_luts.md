@@ -6,11 +6,10 @@ a single boolean output. We often express these boolean operators and any boolea
 functions composed from them as truth tables, which simply show which outputs are
 produced for a given set or inputs.
 
-
 And
 
 | a | b | out |
-| - | - | --- |
+|:--|:--|:----|
 | 0 | 0 | 0   |
 | 0 | 1 | 0   |
 | 1 | 0 | 0   |
@@ -19,7 +18,7 @@ And
 Or
 
 | a | b | out |
-| - | - | --- |
+|:--|:--|:----|
 | 0 | 0 | 0   |
 | 0 | 1 | 1   |
 | 1 | 0 | 1   |
@@ -28,7 +27,7 @@ Or
 Not
 
 | a | out |
-| - | --- |
+|:--|:----|
 | 0 | 1   |
 | 1 | 0   |
 
@@ -38,7 +37,7 @@ truth tables using a hardware construct that you may be familiar with: ROM.
 And
 
 | address | out |
-| ------- | --- |
+|:--------|:----|
 | 00      | 0   |
 | 01      | 0   |
 | 10      | 0   |
@@ -47,7 +46,7 @@ And
 Or
 
 | address | out |
-| ------- | --- |
+|:--------|:----|
 | 00      | 0   |
 | 01      | 1   |
 | 10      | 1   |
@@ -56,7 +55,7 @@ Or
 Not
 
 | address | out |
-| --------| --- |
+|:--------|:----|
 | 0       | 1   |
 | 1       | 0   |
 
@@ -85,9 +84,3 @@ power and performance costs that come with it.
 * Expensive
 * Power hungry
 * Must be reprogrammed at power on
-
-
-
-
-
-
