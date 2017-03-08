@@ -1,6 +1,6 @@
 # Adders and Fast Carry Chains: Addition in FPGAs
 ## The Full Adder:  1-Bit at a Time
-The [full adder](https://en.wikipedia.org/wiki/Adder_(electronics) is the building block
+The [full adder](https://en.wikipedia.org/wiki/Adder_(electronics)) is the building block
 of integer arithmetic in digital circuits. It consists of 3 1-bit inputs (a, b, carry_in) and one
 2-bit output (sum).
 
